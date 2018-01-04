@@ -1,7 +1,5 @@
 [ng-scroll-bar] {
   position: relative;
-  -ms-touch-action: none;
-      touch-action: none;
   /**
   * Scrollbars
   */ }
@@ -36,7 +34,8 @@
     bottom: 0; }
 
 *::-webkit-scrollbar {
-  width: 8px; }
+  width: 8px;
+  height: 8px; }
 
 *::-webkit-scrollbar-thumb {
   border-radius: 4px;

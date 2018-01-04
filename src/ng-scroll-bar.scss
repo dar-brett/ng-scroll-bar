@@ -1,6 +1,5 @@
 [ng-scroll-bar] {
   position: relative;
-  touch-action: none;
   &.is-not-ie {
     overflow: inherit;
   }
@@ -53,6 +52,7 @@
 *::-webkit-scrollbar
 {
   width: 8px;
+  height: 8px;
 }
 
 *::-webkit-scrollbar-thumb
